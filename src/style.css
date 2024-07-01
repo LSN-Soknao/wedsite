@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+}
+.contaner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.contaner .navbar .nav-contaner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 50px;
+}
+/* navbar left */
+.contaner .navbar .nav-contaner .nav-left .nav-left-list .nav-left-item {
+  width: 120px;
+}
+/* header */
+.contaner .head-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 94%;
+  padding: 100px 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(59, 59, 59);
+}
+/* btn hesder */
+.contaner .head-text .btn-bottom button {
+  font-size: 0.9rem;
+  font-weight: 800;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+.contaner .head-text .btn-bottom .older{
+    color: rgb(102, 102, 102);
+}
+.contaner .head-text .btn-bottom .demo{
+    background-color: rgb(7, 7, 7);
+    color: rgb(185, 185, 185);
+}
+.contaner .head-text .btn-bottom .older:hover {
+  background-color: rgb(211, 211, 211);
+}
+.contaner .head-text .btn-bottom .demo:hover {
+  background-color: rgb(35, 35, 35);
+}
+/*  navbar center */
+.contaner .navbar .nav-contaner .nav-center .nav-center-list {
+  display: flex;
+  gap: 40px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+/* navbar right */
+
+.contaner .navbar .nav-contaner .nav-right .nav-right-list {
+  display: flex;
+  font-size: 1.5rem;
+  gap: 15px;
+}
